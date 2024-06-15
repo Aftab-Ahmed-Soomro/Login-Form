@@ -1,0 +1,48 @@
+body {
+     background: #212832;
+}
+@font-face {
+    font-family: pillat2;
+    src: url(./Assets/fonts/font/PilatExtended-Regular.woff);
+}
+@font-face {
+    font-family: pilat;
+    src: url(./Assets/fonts/font/PilatExtended-Heavy.woff2);
+}
+/* .banner-img {
+    height: 210px;
+    width: 270px;
+} */
+.margin {
+    padding-right: 100px;
+}
+.form-control,
+.card-body,
+.form-control:focus {
+    color: #fff;
+    background-color: #455A64;
+    border: transparent;
+}
+.form-control::placeholder,
+.form-control:focus {
+    color: #fff;
+}
+.border-radius {
+    border-radius: 0%;
+}
+.card {
+    border: #455A64;
+}
+.banner-img {
+    width: 280px;
+}
+.width {
+    width: 275px;
+}
+.eye {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    width: 30px;
+}
